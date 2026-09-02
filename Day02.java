@@ -3,18 +3,18 @@ public class Biodata {
 
         // Menggunakan println()
         System.out.println("=== BIODATA DIRI ===");
-        System.out.println("Nama       : Muh afdhal asysyifa");
+        System.out.println("Nama       : afdal");
         System.out.println("Prodi      : Informatika");
 
         // Menggunakan print()
         System.out.print("Asal Kota  : ");
-        System.out.print("kabupaten pasangkayu");
+        System.out.print("pasangkayu");
         System.out.print("\n");
 
         // Menggunakan printf()
-        String nama = "Muh afdhal asysyifa";
+        String nama = "afdal";
         String prodi = "Informatika";
-        String kota = "kabupaten pasangkayu";
+        String kota = "pasangkayu";
         int umur = 18;
 
         System.out.printf("Nama       : %s%n", nama);
