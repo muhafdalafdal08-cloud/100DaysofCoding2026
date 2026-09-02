@@ -11,7 +11,7 @@ public class Biodata {
         System.out.print("Majene");
         System.out.print("prodi");
 
-        // Menggunakan printf()
+        // Menggunakan string()
         String nama = "muh afdhal asysyifa";
         String prodi = "Informatika";
         String kota = "kabupaten pasangkayu";
