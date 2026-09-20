@@ -4,14 +4,14 @@ public class KonversiManual {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Masukkan bilangan bulat: ");
-        int angka = input.nextInt();
+        System.out.print("Masukkan bilangan desimal: ");
+        double angka = input.nextDouble();
 
-        // Konversi manual dari int ke double
-        double hasil = (double) angka;
+        // Konversi manual dari double ke int
+        int hasil = (int) angka;
 
-        System.out.println("Nilai int    = " + angka);
-        System.out.println("Nilai double = " + hasil);
+        System.out.println("Nilai double = " + angka);
+        System.out.println("Nilai int    = " + hasil);
 
         input.close();
     }
