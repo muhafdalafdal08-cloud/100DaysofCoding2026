@@ -1,11 +1,17 @@
+import java.util.Scanner;
+
 public class StringKePrimitif {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-        String angka = "25";
+        System.out.print("Masukkan angka: ");
+        String teks = input.nextLine();
 
-        int hasil = Integer.parseInt(angka);
+        int angka = Integer.parseInt(teks);
 
-        System.out.println("String = " + angka);
-        System.out.println("Int = " + hasil);
+        System.out.println("String = " + teks);
+        System.out.println("Integer = " + angka);
+
+        input.close();
     }
 }
